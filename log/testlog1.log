@@ -1,0 +1,9 @@
+2018-09-18 21:49:38,684 [main] INFO LogDemo - Firefox opened
+2018-09-18 21:49:38,735 [main] INFO LogDemo - Brows maximized
+2018-09-18 21:49:38,764 [main] INFO LogDemo - Put an implicit wait
+2018-09-18 21:49:44,594 [main] INFO LogDemo - Launch the URL
+2018-09-18 21:49:44,654 [main] INFO LogDemo - Find element.Get text.
+2018-09-18 21:49:44,655 [main] INFO LogDemo - Print text
+2018-09-18 21:49:44,770 [main] INFO LogDemo - Click on the link
+2018-09-18 21:49:44,770 [main] INFO LogDemo - Print text:Link has been clicked otherwise an exeption would have thrown
+2018-09-18 21:49:45,657 [main] INFO LogDemo - Close LogDemo
