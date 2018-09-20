@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="DemoXmlFileCreation" >
+  <test name="demoxml" >
+    <classes>
+       <class name="crossBrowsers.XmlDemo" />
+       <class name="crossBrowsers.XmlDemo1" />
+    </classes>
+  </test>
+</suite>

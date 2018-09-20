@@ -11,7 +11,7 @@ public class FirstTestCaseG {
 		driver.manage().window().maximize();
 		System.out.println("Hi!!!");
 		
-		//driver.close();//doesn't work
+	
 
 	}
 

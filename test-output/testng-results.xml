@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-19T18:29:13Z" name="Default suite" finished-at="2018-09-19T18:29:24Z" duration-ms="10579">
+  <suite started-at="2018-09-20T00:29:31Z" name="Suite" finished-at="2018-09-20T00:29:53Z" duration-ms="22370">
     <groups>
     </groups>
-    <test started-at="2018-09-19T18:29:13Z" name="Default test" finished-at="2018-09-19T18:29:24Z" duration-ms="10579">
-      <class name="automationFrameworkG.TestNG">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationFrameworkG.TestNG@762ef0ea]" started-at="2018-09-19T18:29:13Z" name="beforeMethod" finished-at="2018-09-19T18:29:19Z" duration-ms="5944" status="PASS">
+    <test started-at="2018-09-20T00:29:31Z" name="ChromeTestCases" finished-at="2018-09-20T00:29:50Z" duration-ms="18702">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@2118cddf]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:50Z" duration-ms="18683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="main()[pri:0, instance:automationFrameworkG.TestNG@762ef0ea]" started-at="2018-09-19T18:29:19Z" name="main" finished-at="2018-09-19T18:29:23Z" duration-ms="3801" status="PASS">
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- ChromeTestCases -->
+    <test started-at="2018-09-20T00:29:31Z" name="FirefoxTestCases" finished-at="2018-09-20T00:29:50Z" duration-ms="19078">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@6aaceffd]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:50Z" duration-ms="19063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationFrameworkG.TestNG@762ef0ea]" started-at="2018-09-19T18:29:23Z" name="afterMethod" finished-at="2018-09-19T18:29:24Z" duration-ms="801" status="PASS">
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- FirefoxTestCases -->
+    <test started-at="2018-09-20T00:29:31Z" name="IETestCases" finished-at="2018-09-20T00:29:53Z" duration-ms="22370">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@7c1e2a9e]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:53Z" duration-ms="22355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- automationFrameworkG.TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- IETestCases -->
+  </suite> <!-- Suite -->
 </testng-results>

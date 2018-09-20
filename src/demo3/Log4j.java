@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 //http://learn-automation.com/how-to-create-log-files-in-selenium/
 //https://www.youtube.com/watch?time_continue=395&v=Xk9fzXCX61U
 
-public class LogDemo {
+public class Log4j {
 
 	public static void main(String[] args) {
 		
