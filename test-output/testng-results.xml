@@ -1,54 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-20T00:29:31Z" name="Suite" finished-at="2018-09-20T00:29:53Z" duration-ms="22370">
+  <suite started-at="2018-09-22T00:53:50Z" name="Default suite" finished-at="2018-09-22T00:54:02Z" duration-ms="11943">
     <groups>
     </groups>
-    <test started-at="2018-09-20T00:29:31Z" name="ChromeTestCases" finished-at="2018-09-20T00:29:50Z" duration-ms="18702">
-      <class name="crossBrowsers.VerifyTitle">
-        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@2118cddf]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:50Z" duration-ms="18683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2018-09-22T00:53:50Z" name="Default test" finished-at="2018-09-22T00:54:02Z" duration-ms="11943">
+      <class name="ConfigurationDemo.TestSeleniuminChrome">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ConfigurationDemo.TestSeleniuminChrome@63070bab]" started-at="2018-09-22T00:53:50Z" name="setUp" finished-at="2018-09-22T00:53:50Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifypageTitle -->
-      </class> <!-- crossBrowsers.VerifyTitle -->
-    </test> <!-- ChromeTestCases -->
-    <test started-at="2018-09-20T00:29:31Z" name="FirefoxTestCases" finished-at="2018-09-20T00:29:50Z" duration-ms="19078">
-      <class name="crossBrowsers.VerifyTitle">
-        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@6aaceffd]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:50Z" duration-ms="19063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChrome()[pri:0, instance:ConfigurationDemo.TestSeleniuminChrome@63070bab]" started-at="2018-09-22T00:53:50Z" name="testChrome" finished-at="2018-09-22T00:54:02Z" duration-ms="11903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifypageTitle -->
-      </class> <!-- crossBrowsers.VerifyTitle -->
-    </test> <!-- FirefoxTestCases -->
-    <test started-at="2018-09-20T00:29:31Z" name="IETestCases" finished-at="2018-09-20T00:29:53Z" duration-ms="22370">
-      <class name="crossBrowsers.VerifyTitle">
-        <test-method signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@7c1e2a9e]" started-at="2018-09-20T00:29:31Z" name="verifypageTitle" finished-at="2018-09-20T00:29:53Z" duration-ms="22355" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifypageTitle -->
-      </class> <!-- crossBrowsers.VerifyTitle -->
-    </test> <!-- IETestCases -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testChrome -->
+      </class> <!-- ConfigurationDemo.TestSeleniuminChrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

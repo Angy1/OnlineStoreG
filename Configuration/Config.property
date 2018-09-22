@@ -1,0 +1,7 @@
+ChromeDriver=C:\\Users\\user\\ToolsQA\\trunk\\Library\\drivers\\chromedriver.exe
+
+IEDriver=C:\\Users\\user\\ToolsQA\\trunk\\Library\\drivers\\IEDriverServer.exe
+
+URL=http://www.learn-automation.com
+
+ExcelPath=
