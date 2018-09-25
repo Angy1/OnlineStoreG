@@ -37,7 +37,7 @@ public class LoginPage
 	 }
 	 
 	 
-	 public void typeUserName(String uid)
+	/* public void typeUserName(String uid)
 	 {
 		 driver.findElement(username).sendKeys(uid);
 	 }
@@ -46,7 +46,7 @@ public class LoginPage
 	 public void typePassword(String pass)
 	 {
 		 driver.findElement(password).sendKeys(pass);
-	 }
+	 }*/
 	 
 	 
 	 public void clickOnLoginButton()

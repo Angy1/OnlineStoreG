@@ -1,35 +1,30 @@
-/**
- * 
- */
 package com.wordpressLogin;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import com.wordpress.Pages.LoginPage;
+import com.wordpress.Pages.HomePage;
 
-/**
- * @author user
- *http://learn-automation.com/page-object-model-using-selenium-webdriver/
- */
-public class VerifyWordpressLogin1 {
-	
-	
+public class VerifyWordpressHomePage
+{
+   
+
 	@Test
-	public void verifyValidLogin()
+	public void verifyWordpressHomePage()
 	{
-		
 		WebDriver driver = new FirefoxDriver();
-		
 		driver.manage().window().maximize();
-		
 		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
 		
-		LoginPage login = new LoginPage(driver);
 		
-		login.loginToWordpress("opensourcecms", "opensourcecms");
+		HomePage home = new HomePage(driver);
+		
+		home.verifyHomePage();
+		//System.out.println("Home page title is " + title);
 		
 		driver.quit();
+		
 	}
+	
 }

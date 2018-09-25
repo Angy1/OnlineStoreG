@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wordpressLogin;
+package com.wordpress.Testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +13,7 @@ import com.wordpress.Pages.LoginPage;
  * @author user
  *http://learn-automation.com/page-object-model-using-selenium-webdriver/
  */
-public class VerifyWordpressLogin {
+public class VerifyWordpressLogin1 {
 	
 	
 	@Test
@@ -28,12 +28,7 @@ public class VerifyWordpressLogin {
 		
 		LoginPage login = new LoginPage(driver);
 		
-		/*login.typeUserName();
-		
-		login.typePassword();*/
-		
-		login.clickOnLoginButton();
-		
+		login.loginToWordpress("opensourcecms", "opensourcecms");
 		
 		driver.quit();
 	}
