@@ -1,13 +1,16 @@
 package ConfigurationDemo;
 
+//Object Repository(if using to store locators)
+//Property File(configuration file)
+//http://learn-automation.com/object-repository-in-selenium-webdriver/
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import utility.ConfigReader;
 
-//http://learn-automation.com/object-repository-in-selenium-webdriver/
+
 public class TestSeleniuminChrome {
 	
 	ConfigReader config;

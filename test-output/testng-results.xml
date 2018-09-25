@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-22T00:53:50Z" name="Default suite" finished-at="2018-09-22T00:54:02Z" duration-ms="11943">
+  <suite started-at="2018-09-25T00:36:11Z" name="Default suite" finished-at="2018-09-25T00:36:18Z" duration-ms="7539">
     <groups>
     </groups>
-    <test started-at="2018-09-22T00:53:50Z" name="Default test" finished-at="2018-09-22T00:54:02Z" duration-ms="11943">
-      <class name="ConfigurationDemo.TestSeleniuminChrome">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ConfigurationDemo.TestSeleniuminChrome@63070bab]" started-at="2018-09-22T00:53:50Z" name="setUp" finished-at="2018-09-22T00:53:50Z" duration-ms="14" status="PASS">
+    <test started-at="2018-09-25T00:36:11Z" name="Default test" finished-at="2018-09-25T00:36:18Z" duration-ms="7539">
+      <class name="com.wordpressLogin.VerifyWordpressLogin1">
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.wordpressLogin.VerifyWordpressLogin1@757277dc]" started-at="2018-09-25T00:36:11Z" name="verifyValidLogin" finished-at="2018-09-25T00:36:18Z" duration-ms="7515" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testChrome()[pri:0, instance:ConfigurationDemo.TestSeleniuminChrome@63070bab]" started-at="2018-09-22T00:53:50Z" name="testChrome" finished-at="2018-09-22T00:54:02Z" duration-ms="11903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testChrome -->
-      </class> <!-- ConfigurationDemo.TestSeleniuminChrome -->
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.wordpressLogin.VerifyWordpressLogin1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
