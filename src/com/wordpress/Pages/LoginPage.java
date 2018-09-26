@@ -37,18 +37,6 @@ public class LoginPage
 	 }
 	 
 	 
-	/* public void typeUserName(String uid)
-	 {
-		 driver.findElement(username).sendKeys(uid);
-	 }
-	 
-	 
-	 public void typePassword(String pass)
-	 {
-		 driver.findElement(password).sendKeys(pass);
-	 }*/
-	 
-	 
 	 public void clickOnLoginButton()
 	 {
 		 driver.findElement(loginButton).click();

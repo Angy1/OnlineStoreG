@@ -3,14 +3,16 @@ package com.wordpress.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+public class HomePage 
+{
+
+	 WebDriver driver;
+	 
+	 
+	 By username = By.id("user_login");
+	 By password = By.xpath("//*[@id=\"user_pass\"]");
+	 By loginButton = By.name("wp-submit");
 	
- WebDriver driver;
-	 
- By username = By.id("user_login");
- By password = By.xpath("//*[@id=\"user_pass\"]");
- By loginButton = By.name("wp-submit");
-	 
 	 
 	 public HomePage(WebDriver driver)
 	 {
@@ -22,18 +24,18 @@ public class HomePage {
 		 driver.findElement(username).sendKeys(userid);
 		 driver.findElement(password).sendKeys(pass);
 		 driver.findElement(loginButton).click();
-     }
+	 }
 	 
-	 public String verifyHomePage()
-	 {	
-		 driver.findElement(By.id("menu-posts"));
-		 
-	     String title =driver.getTitle();
-	     
-	     return title;
-		
+	 public void clickOnLoginButton()
+	 {
+		 driver.findElement(loginButton).click();
 	 }
 	 
 	 
+	 public void verifyHomePage()
+	 {	
+		 driver.findElement(By.id("menu-posts"));
+		 
+	 }
 	 
 }
