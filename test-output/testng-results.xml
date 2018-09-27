@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-26T00:06:22Z" name="Default suite" finished-at="2018-09-26T00:06:28Z" duration-ms="6557">
+  <suite started-at="2018-09-27T15:39:23Z" name="Default suite" finished-at="2018-09-27T15:39:32Z" duration-ms="9547">
     <groups>
     </groups>
-    <test started-at="2018-09-26T00:06:22Z" name="Default test" finished-at="2018-09-26T00:06:28Z" duration-ms="6557">
-      <class name="com.wordpressLogin.VerifyWordpressHomePage">
-        <test-method signature="verifyWordpressHomePage()[pri:0, instance:com.wordpressLogin.VerifyWordpressHomePage@757277dc]" started-at="2018-09-26T00:06:22Z" name="verifyWordpressHomePage" finished-at="2018-09-26T00:06:28Z" duration-ms="6531" status="PASS">
+    <test started-at="2018-09-27T15:39:23Z" name="Default test" finished-at="2018-09-27T15:39:32Z" duration-ms="9547">
+      <class name="com.wordpress.Testcases.VerifyWordpressPostPage">
+        <test-method signature="VerifyWordpressPostPage()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressPostPage@1220ef43]" started-at="2018-09-27T15:39:23Z" name="VerifyWordpressPostPage" finished-at="2018-09-27T15:39:32Z" duration-ms="9483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWordpressHomePage -->
-      </class> <!-- com.wordpressLogin.VerifyWordpressHomePage -->
+        </test-method> <!-- VerifyWordpressPostPage -->
+      </class> <!-- com.wordpress.Testcases.VerifyWordpressPostPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

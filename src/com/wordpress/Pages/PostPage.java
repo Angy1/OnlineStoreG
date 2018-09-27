@@ -3,10 +3,9 @@ package com.wordpress.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage 
-{
+public class PostPage {
 
-	 WebDriver driver;
+ WebDriver driver;
 	 
 	 
 	 By username = By.id("user_login");
@@ -14,7 +13,7 @@ public class HomePage
 	 By loginButton = By.name("wp-submit");
 	
 	 
-	 public HomePage(WebDriver driver)
+	 public PostPage(WebDriver driver)
 	 {
 		 this.driver = driver;
 	 }
@@ -39,4 +38,10 @@ public class HomePage
 		 driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/ul/li[3]/ul/li[2]/a")).click();
 	 }
 	 
+
+	 
+	 public void clickOnAddNewButton()
+	 {
+		 driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[1]/div[3]/a")).click();
+	 }
 }

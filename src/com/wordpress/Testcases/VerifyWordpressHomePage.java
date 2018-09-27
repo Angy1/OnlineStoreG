@@ -19,7 +19,7 @@ public class VerifyWordpressHomePage
 		driver.manage().window().maximize();
 		
 		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
-		
+	
 		
 		
 		LoginPage login = new LoginPage(driver);
@@ -33,7 +33,7 @@ public class VerifyWordpressHomePage
 		home.verifyHomePage();
 		
 		
-		driver.quit();
+		//driver.quit();
 		
 	}
 	
