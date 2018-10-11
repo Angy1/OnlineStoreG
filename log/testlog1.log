@@ -7,3 +7,12 @@
 2018-09-18 21:49:44,770 [main] INFO LogDemo - Click on the link
 2018-09-18 21:49:44,770 [main] INFO LogDemo - Print text:Link has been clicked otherwise an exeption would have thrown
 2018-09-18 21:49:45,657 [main] INFO LogDemo - Close LogDemo
+2018-10-05 17:03:53,772 [main] INFO LogDemo - Firefox opened
+2018-10-05 17:03:53,853 [main] INFO LogDemo - Brows maximized
+2018-10-05 17:03:53,860 [main] INFO LogDemo - Put an implicit wait
+2018-10-05 17:04:00,447 [main] INFO LogDemo - Launch the URL
+2018-10-05 17:04:00,493 [main] INFO LogDemo - Find element.Get text.
+2018-10-05 17:04:00,494 [main] INFO LogDemo - Print text
+2018-10-05 17:04:00,573 [main] INFO LogDemo - Click on the link
+2018-10-05 17:04:00,573 [main] INFO LogDemo - Print text:Link has been clicked otherwise an exeption would have thrown
+2018-10-05 17:04:01,472 [main] INFO LogDemo - Close LogDemo

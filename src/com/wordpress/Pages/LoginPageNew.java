@@ -14,8 +14,8 @@ import org.openqa.selenium.support.How;
   public class LoginPageNew 
   {
 	  
-	WebDriver driver; 
-	
+	 WebDriver driver; 
+	//This is a constructor,as every page need a base driver to find web element
 	public LoginPageNew(WebDriver ldriver)
 	{
 		this.driver=ldriver;
@@ -23,20 +23,21 @@ import org.openqa.selenium.support.How;
 	
 	
     @FindBy(id="user_login")
-    @CacheLookup
+   // @CacheLookup
     WebElement username;
     
     @FindBy(how=How.ID,using="user_pass")
-    @CacheLookup
+   // @CacheLookup
     WebElement password;
     
     @FindBy(how=How.XPATH,using="//*[@id=\"wp-submit\"]")
-    @CacheLookup
+    //@CacheLookup
 	WebElement submit_button;
     
-    @FindBy(how=How.LINK_TEXT,using="Lost your password?")
+   /* @FindBy(how=How.LINK_TEXT,using="Lost your password?")
     @CacheLookup
     WebElement forget_password_link;
+    */
     
     public void login_wordpress(String uid,String pass)
     {
@@ -45,4 +46,10 @@ import org.openqa.selenium.support.How;
     	submit_button.click();
     	//forget_password_link.click();
     }
+    
+    
+  /*  public void clickOnLoginButton()
+    {
+    	submit_button.click();
+    }*/
   }

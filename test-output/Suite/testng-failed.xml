@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="ChromeTestCases(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listenerDemo.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="crossBrowsers.VerifyTitle">
+      <class name="listenerDemo.MyFirstTestCase">
         <methods>
-          <include name="verifypageTitle" invocation-numbers="0"/>
+          <include name="TitleMatch"/>
         </methods>
-      </class> <!-- crossBrowsers.VerifyTitle -->
+      </class> <!-- listenerDemo.MyFirstTestCase -->
     </classes>
-  </test> <!-- ChromeTestCases(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

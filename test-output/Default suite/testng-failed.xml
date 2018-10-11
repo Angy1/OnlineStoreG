@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wordpress.Testcases.VerifyWordpressPostPage">
+      <class name="listenerDemo.MyFirstTestCase">
         <methods>
-          <include name="VerifyWordpressPostPage"/>
+          <include name="TitleMatch"/>
         </methods>
-      </class> <!-- com.wordpress.Testcases.VerifyWordpressPostPage -->
+      </class> <!-- listenerDemo.MyFirstTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

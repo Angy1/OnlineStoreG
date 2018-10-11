@@ -30,7 +30,7 @@ public class VerifyWordpressHomePage
 		
 		HomePage home = new HomePage(driver);
 		
-		home.verifyHomePage();
+		home.goToHomePage();
 		
 		
 		//driver.quit();

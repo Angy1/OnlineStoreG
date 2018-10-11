@@ -22,8 +22,8 @@ public class VerifyWordpressPostPage {
 	  login.loginToWordpress("opensourcecms", "opensourcecms");
 	  
 	  HomePage home=new HomePage(driver);
-	  home.verifyHomePage();
-	 
+	  home.goToHomePage();
+	  
 	  
 	  PostPage post=new PostPage(driver);
 	  post.clickOnAddNewButton();

@@ -26,13 +26,13 @@ public class HomePage
 		 driver.findElement(loginButton).click();
 	 }
 	 
-	 public void clickOnLoginButton()
+	/* public void clickOnLoginButton()
 	 {
 		 driver.findElement(loginButton).click();
 	 }
+	 */
 	 
-	 
-	 public void verifyHomePage()
+	 public void goToHomePage()
 	 {	
 		 
 		 driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/ul/li[3]/a/div[3]")).click();

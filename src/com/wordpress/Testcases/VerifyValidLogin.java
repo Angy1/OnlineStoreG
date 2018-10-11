@@ -23,5 +23,7 @@ public class VerifyValidLogin
 		
 		//Call the method
 		login_page.login_wordpress("opensourcecms", "opensourcecms");
+		
+		driver.quit();
 	}
 }

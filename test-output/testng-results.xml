@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Test3 is executed via Thread and Thread Id is 14]]>
+    </line>
+    <line>
+      <![CDATA[Test2 is executed via Thread and Thread Id is 13]]>
+    </line>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 13]]>
+    </line>
   </reporter-output>
-  <suite started-at="2018-09-27T15:39:23Z" name="Default suite" finished-at="2018-09-27T15:39:32Z" duration-ms="9547">
+  <suite started-at="2018-10-10T20:52:48Z" name="Suite" finished-at="2018-10-10T20:52:48Z" duration-ms="59">
     <groups>
     </groups>
-    <test started-at="2018-09-27T15:39:23Z" name="Default test" finished-at="2018-09-27T15:39:32Z" duration-ms="9547">
-      <class name="com.wordpress.Testcases.VerifyWordpressPostPage">
-        <test-method signature="VerifyWordpressPostPage()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressPostPage@1220ef43]" started-at="2018-09-27T15:39:23Z" name="VerifyWordpressPostPage" finished-at="2018-09-27T15:39:32Z" duration-ms="9483" status="PASS">
+    <test started-at="2018-10-10T20:52:48Z" name="Test" finished-at="2018-10-10T20:52:48Z" duration-ms="59">
+      <class name="testNGClasses.MultipleTestExecution">
+        <test-method signature="logoutApplication()[pri:0, instance:testNGClasses.MultipleTestExecution@192c3f1e]" started-at="2018-10-10T20:52:48Z" name="logoutApplication" finished-at="2018-10-10T20:52:48Z" duration-ms="13" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Test3 is executed via Thread and Thread Id is 14]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- VerifyWordpressPostPage -->
-      </class> <!-- com.wordpress.Testcases.VerifyWordpressPostPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- logoutApplication -->
+        <test-method signature="loginApplication()[pri:0, instance:testNGClasses.MultipleTestExecution@192c3f1e]" started-at="2018-10-10T20:52:48Z" name="loginApplication" finished-at="2018-10-10T20:52:48Z" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2 is executed via Thread and Thread Id is 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="setUp()[pri:0, instance:testNGClasses.MultipleTestExecution@192c3f1e]" started-at="2018-10-10T20:52:48Z" name="setUp" finished-at="2018-10-10T20:52:48Z" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- testNGClasses.MultipleTestExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
